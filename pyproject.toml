@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "verificador"
+version = "1"
+description = ""
+authors = ["guilherme Jonck"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^22.8.0"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^22.8.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
